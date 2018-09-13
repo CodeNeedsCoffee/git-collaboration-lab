@@ -5,10 +5,12 @@ General CSS
 */
 
 body{
-    background: #aaa;
+    background:#8b4d00;
     height: 100%;
     margin: 0;
     padding-top: 5px;
+    color: #fff8e1;
+    font-family: 'Raleway', sans-serif;
 }
 
 main{
@@ -20,12 +22,45 @@ main{
 
 .top-nav, .bottom-nav{
     text-align: center;
-    background: #333;
+    background: #c17900;
     color: white;
 }
 .top-nav {
     padding-top: 25px;
 }
+
+.left{
+  float: left;  
+}
+
+a:link {
+    color: #ffda6e;
+}
+
+a:visited {
+    color: #ffda6e;
+}
+
+a:hover {
+    color: #ffda6e;
+}
+
+a:active {
+    color: #ffda6e;
+}
+
+.side-content{
+    float: left;
+    width: 11em;
+    padding: 2.5em;
+}
+
+.middle-content{
+    float: left;
+    width: 12em;
+    padding: 2.5em;
+}
+
 /* 
 ---------------- 
 Footer CSS 
@@ -36,7 +71,7 @@ Footer CSS
 }
 
 footer{
-    background: #333;
+    background: #c17900;
 }
 
 .bottom-nav{
@@ -105,7 +140,7 @@ Nav Bar
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #c17900;
     display: inline-block;
 }
 
@@ -124,8 +159,125 @@ Nav Bar
 }
 
 .main-nav li a:hover {
-    background-color: #111;
+    background-color: #8b4d00;
 }
+
+/* 
+---------------- 
+Secondary Nav Bar
+---------------- 
+*/
+
+.secondary-nav {
+    width: 106px;
+    height: 45em;
+    box-sizing: border-box;
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: #8b4d00;
+    border-right: 12px solid #f8a83e;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .secondary-nav  .navitem {
+    color: rgba(0, 0, 0, 0);
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0.5em 2em;
+    transition: all 0.5s;
+  }
+  .secondary-nav  .navitem:hover {
+    color: #fff;
+    /* border: 4px solid; */
+  }
+  .secondary-nav  .navitem:hover i {
+    color: #fff;
+  }
+  .secondary-nav  .navitem i {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: normal;
+  }
+  .secondary-nav:hover {
+    width: 360px;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  .secondary-nav:hover span {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 1s 0.25s;
+  }
+  .secondary-nav:hover .navitem {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .secondary-nav:hover .navitem i {
+    margin-left: 0;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(1) {
+    transition: all 0.2s, color 1s 0.275s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(1) i {
+    transition: all 0.2s, margin-left 0.2s 0.275s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(2) {
+    transition: all 0.2s, color 1s 0.3s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(2) i {
+    transition: all 0.2s, margin-left 0.2s 0.3s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(3) {
+    transition: all 0.2s, color 1s 0.325s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(3) i {
+    transition: all 0.2s, margin-left 0.2s 0.325s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(4) {
+    transition: all 0.2s, color 1s 0.35s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(4) i {
+    transition: all 0.2s, margin-left 0.2s 0.35s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(5) {
+    transition: all 0.2s, color 1s 0.375s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(5) i {
+    transition: all 0.2s, margin-left 0.2s 0.375s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(6) {
+    transition: all 0.2s, color 1s 0.4s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(6) i {
+    transition: all 0.2s, margin-left 0.2s 0.4s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(7) {
+    transition: all 0.2s, color 1s 0.425s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(7) i {
+    transition: all 0.2s, margin-left 0.2s 0.425s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(8) {
+    transition: all 0.2s, color 1s 0.45s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(8) i {
+    transition: all 0.2s, margin-left 0.2s 0.45s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(9) {
+    transition: all 0.2s, color 1s 0.475s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(9) i {
+    transition: all 0.2s, margin-left 0.2s 0.475s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(10) {
+    transition: all 0.2s, color 1s 0.5s;
+  }
+  .secondary-nav:hover .navitem:nth-of-type(10) i {
+    transition: all 0.2s, margin-left 0.2s 0.5s;
+  }
 
 /* 
 ---------------- 
