@@ -4,30 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Zep's Coffee</title>
-    <!-- <link href="./resources/main.css" rel="stylesheet"> -->
+    <link href="./resources/main.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./img/logo.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
     <header>
-        <h1>Zep's Coffee</h1>
+        <h1 class="page-title">Zep's Coffee</h1>
         <!-- Logo will be in css -->
-        <img src="./img/logo.png" alt="logo" height="75px" width="75px" />
+        <img src="./img/logo.png" class="logo-pic" alt="logo" />
     </header>
-    <nav>
-        <a href="./index.html">Home</a> |
-        <a href="./pages/products/index.html">Products</a> |
-        <a href="./pages/sales/index.html">Sale</a> |
-        <a href="./pages/about-us/our-mission.html">About Us</a>
+    <nav class="top-nav">
+        <ul class="main-nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/products/index.html">Products</a></li>
+            <li><a href="./pages/sales/index.html">Sale</a></li>
+            <li><a href="./pages/about-us/our-mission.html">About Us</a></li>
+        </ul>
     </nav>
-    <br />
     <main>
-        <section>
-            <i>&lt;</i>
-            <img src="./img/coffee.jpg" alt="Coffee" height="75px" width="75px" />
-            <img src="./img/tea.jpg" alt="Tea" height="75px" width="75px" />
-            <i>&gt;</i>
+        <section class="slider-section ">
+            <div class="slider">
+                <a href="#slide-1">1</a>
+                <a href="#slide-2">2</a>
+                <a href="#slide-3">3</a>
+                <a href="#slide-4">4</a>
+                <div class="slides">
+                    <div id="slide-1">
+                        <img src="./img/coffee.jpg" alt="Coffee"/>
+                    </div>
+                    <div id="slide-2">
+                        <img src="./img/tea.jpg" alt="Tea" />
+                    </div>
+                    <div id="slide-3">
+                        <img src="./img/coffee.jpg" alt="Coffee"/>
+                    </div>
+                    <div id="slide-4">
+                        <img src="./img/tea.jpg" alt="Tea" height="75px" width="75px" />
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
             <article>
@@ -43,9 +60,10 @@
                 <p>We beleive in giving back. We invest in the community with fundraisers and donations.</p>
             </article>
         </section>
+        <div class="filler"></div>
     </main>
     <footer>
-        <nav>
+        <nav class="bottom-nav">
             <a href="./pages/about-us/our-mission.html">About Us</a> |
             <a href="./pages/about-us/contact.html">Contact Us</a> |
             <a href="./pages/about-us/locations.html">Locations</a> |
