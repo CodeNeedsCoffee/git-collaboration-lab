@@ -49,16 +49,18 @@ a:active {
     color: #ffda6e;
 }
 
-.side-content{
-    float: left;
-    width: 11em;
-    padding: 2.5em;
+.side-content {
+  float: left;
+  width: 21em;
+  padding: 2.5em;
+  text-align: center;
 }
 
-.middle-content{
-    float: left;
-    width: 12em;
-    padding: 2.5em;
+.middle-content {
+  float: left;
+  width: 30em;
+  padding: 2.5em;
+  text-align: center;
 }
 
 /* 
